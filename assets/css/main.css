@@ -805,6 +805,13 @@ section {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #stats-counter {
+      display: none;
+  }
+}
+
+
 .stats-counter .stats-item {
   padding: 30px;
   width: 100%;
